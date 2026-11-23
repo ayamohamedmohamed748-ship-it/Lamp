@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(135deg, #bde0fe,#457b9d);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+    font-family: sans-serif;
+}
+
+.contener {
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 40px;
+}
+
+.bulb {
+    width: 120px;
+    height: 120px;
+    background: burlywood;
+    margin: auto auto 40px;
+    border-radius: 50%;
+    transition: background 0.3s ease, box-shadow 0.3s ease;
+}
+
+.bulb.action {
+    background: yellowgreen;
+    box-shadow: 0 0 30px yellowgreen, 0 0 60px yellowgreen;
+}
+
+button {
+    padding: 12px 35px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 18px;
+    margin: 10px;
+}
+
+button:first-child {
+    background: green;
+    color: white;
+}
+
+button:last-child {
+    background: red;
+    color: white;
+}
